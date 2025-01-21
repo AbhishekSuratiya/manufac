@@ -1,7 +1,8 @@
 import "@mantine/core/styles.css";
 import { MantineProvider } from "@mantine/core";
 import { theme } from "./theme";
+import Home from "./pages/Home.tsx";
 
 export default function App() {
-  return <MantineProvider theme={theme}>App</MantineProvider>;
+  return <MantineProvider theme={theme}><Home/></MantineProvider>;
 }
